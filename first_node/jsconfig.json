@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"strict": true
+	}, // 조금은 더 엄격하게 코드를 짤 수 있게 하는 옵션
+	"include": [
+		"src/**/*"
+	]
+}
