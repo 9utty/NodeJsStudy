@@ -1,19 +1,4 @@
-// Prototype
+// @ts-check
 
-function Student(name) {
-	this.name = name
-}
+// 프레임워크 없이 간단한 토이프로젝트 웹 서버 만들어보기
 
-Student.prototype.greet = function greet() {
-	return `Hi, ${this.name}!`
-}
-
-const me = new Student('gulee')
-console.log(me.name)
-console.log(me.greet())
-
-Student.prototype.study = function study() {
-	return `${this.name} is studying.`
-}
-
-console.log(me.study())
