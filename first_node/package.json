@@ -1,12 +1,14 @@
 {
+  "scripts": {
+    "server": "nodemon src/main.js"
+  },
+  "engines": {
+    "node": "18.11.0"
+  },
   "name": "nodejs_study",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "debug": "",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/9utty/NodeJsStudy.git"
@@ -26,6 +28,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
     "http": "^0.0.1-security",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4"
   }
